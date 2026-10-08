@@ -1,0 +1,73 @@
+{
+  "id": "sigf/minecraft-jetpack-joyride-takeover-b92",
+  "version": "1.0.0",
+  "name": "Jetpack Joyride Takeover",
+  "tagline": "Bring Jetpack Joyride into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "minecraft",
+      "role": "host",
+      "engine": "Minecraft Java 26.3 + Fabric Loader 0.19.5 + Fabric API (Java 25, Mojang names)",
+      "mc": "26.3",
+      "loader": "fabric@0.19.5"
+    },
+    {
+      "game": "jetpackjoyride",
+      "role": "guest",
+      "label": "Jetpack Joyride",
+      "canonical": false
+    }
+  ],
+  "requires": [
+    {
+      "id": "fabric-loader"
+    }
+  ],
+  "install": [
+    {
+      "game": "minecraft",
+      "strategy": "mrpack",
+      "pack": {
+        "src": "minecraft-jetpack-joyride-takeover-b92.mrpack",
+        "url": "https://github.com/SIGFAI/minecraft-jetpack-joyride-takeover-b92/releases/download/v1.0.0/minecraft-jetpack-joyride-takeover-b92.mrpack",
+        "sha256": "46483a2fbbc282e984c66826d28cb2fd08d7160235dc16a698e22a7dac29436b",
+        "size": 119004
+      }
+    }
+  ],
+  "launch": [
+    {
+      "game": "minecraft",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "minecraft-jetpack-joyride-takeover-b92.mrpack",
+      "url": "https://github.com/SIGFAI/minecraft-jetpack-joyride-takeover-b92/releases/download/v1.0.0/minecraft-jetpack-joyride-takeover-b92.mrpack",
+      "sha256": "46483a2fbbc282e984c66826d28cb2fd08d7160235dc16a698e22a7dac29436b",
+      "size": 119004
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/minecraft-jetpack-joyride-takeover-b92",
+    "license": "MIT"
+  },
+  "media": {
+    "clip": "https://sigf.ai/clips/2026-10-08-675e10b5.mp4"
+  },
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "minecraft",
+    "status": "draft"
+  },
+  "built_at": "2026-10-08T04:15:10.671Z",
+  "notes": [
+    "Install Fabric for Minecraft 26.3 with Fabric API, then drop the mod jar into your mods folder and start a world. You spawn wearing the Machine Gun Jetpack in a lab tunnel: hold Jump to fly and shoot, grab coins, dodge zappers and missiles."
+  ]
+}

@@ -1,0 +1,7 @@
+Moments the clip must show (ticked only when seen in the preview screenshots):
+[x] 1. Takeover: a hazard-striped lab tunnel with a machine gun jetpack on the player's back, title "JETPACK JOYRIDE TAKEOVER", HUD with distance and coins (first seconds).
+[x] 2. Jetpack flight: nozzle flames, bullet spray and a trail of spinning coins collected with the coin counter rising.
+[x] 3. Scientists in white coats shot by the jetpack gun: they pop into coins that fly to the player.
+[x] 4. Zapper: jagged lightning bars across the tunnel; the player flies into one and gets zapped (sparks, recoil), others are shot apart into coins.
+[x] 5. Missile warning "!" flashing in the lane, then the rocket is shot down or explodes; a missile barrage near the end.
+Weak spots: the yellow gun tracers are small at stream size; the flames and spray carry the shooting.

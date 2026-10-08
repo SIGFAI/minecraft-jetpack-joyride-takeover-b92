@@ -1,0 +1,1 @@
+Install Fabric for Minecraft 26.3 with Fabric API, then drop the mod jar into your mods folder and start a world. You spawn wearing the Machine Gun Jetpack in a lab tunnel: hold Jump to fly and shoot, grab coins, dodge zappers and missiles.
